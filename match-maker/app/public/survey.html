@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="30x30" href="img/cowboy.png">
+    <link href="https://cdn.tlm.cloud/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.tlm.cloud/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha384-YgbKRapHUUSMbq+ZTy6HzAc3nOtKW8oZRhS9lTj7hqfP716Y/fXkBZrN/ncXepKQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Find Your Match!</title>
+</head>
+
+<body class="ui inverted segment d-flex flex-column align-items-center overflow-hidden">
+    <!-- intro -->
+    <div class="intro ui text-center h3 fw-light w-50 lh-base pt-4 pb-5">Looking for a compatible companion?<br>Fill out
+        this short survey and you'll be matched with somebody just like you!</div> <!-- end intro -->
+    <!-- survey form -->
+    <form class="col-12 col-xl-8 mx-auto h-75 rounded border">
+        <!-- questions section -->
+        <div class="ui inverted segment">
+            <!-- enter name -->
+            <div class="row py-5">
+                <label class="h3 fw-light text-center pb-4" for="name">Well hello there&hellip; What's your
+                    name?</label>
+                <input type="text" class="form-control text-center w-25 mx-auto" placeholder="My name is..." required>
+            </div> <!-- end enter name -->
+            <div class="ui divider inverted"></div>
+            <!-- question 1 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="dogs">How much do you like dogs?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="dogs" value="1">
+                        <h1 class="text-center">💩</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="dogs" value="2">
+                        <h1 class="text-center">🙁</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="dogs" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="dogs" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="dogs" value="5">
+                        <h1 class="text-center">❤️</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 1 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 2 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="mayo">How do you feel about mayonnaise?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="mayo" value="1">
+                        <h1 class="text-center">🤮</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="mayo" value="2">
+                        <h1 class="text-center">🤢</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="mayo" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="mayo" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="mayo" value="5">
+                        <h1 class="text-center">❤️</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 2 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 3 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="zombie">Would you survive a zombie apocalypse?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="zombie" value="1">
+                        <h1 class="text-center">☠️</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="zombie" value="2">
+                        <h1 class="text-center">😨</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="zombie" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="zombie" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="zombie" value="5">
+                        <h1 class="text-center">👑</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 3 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 4 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="trek">Are you a fan of Star Trek?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="trek" value="1">
+                        <h1 class="text-center">👎🏻</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="trek" value="2">
+                        <h1 class="text-center">🙁</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="trek" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="trek" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="trek" value="5">
+                        <h1 class="text-center">🖖🏻</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 4 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 5 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="metal">Do you enjoy listening to extreme death metal
+                    music?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="metal" value="1">
+                        <h1 class="text-center">😱</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="metal" value="2">
+                        <h1 class="text-center">🙁</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="metal" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="metal" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="metal" value="5">
+                        <h1 class="text-center">🤘🏻</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 5 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 6 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="gator">Would you ever consider going alligator
+                    hunting?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="gator" value="1">
+                        <h1 class="text-center">😰</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="gator" value="2">
+                        <h1 class="text-center">🙁</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="gator" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="gator" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="gator" value="5">
+                        <h1 class="text-center">🐊</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 6 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 7 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="social">Do you require an entourage of followers to be
+                    happy?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="social" value="1">
+                        <h1 class="text-center">🤬</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="social" value="2">
+                        <h1 class="text-center">🙁</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="social" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="social" value="4">
+                        <h1 class="text-center">🤗</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="social" value="5">
+                        <h1 class="text-center">👨‍👩‍👧‍👦</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 7 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 8 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="humor">Is your humor style more highbrow or
+                    lowbrow?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="humor" value="1">
+                        <h1 class="text-center">🧐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="humor" value="2">
+                        <h1 class="text-center">🙄</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="humor" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="humor" value="4">
+                        <h1 class="text-center">😜</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="humor" value="5">
+                        <h1 class="text-center">🤡</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 8 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 9 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="inOrOut">Are you an indoor human or a creature of the
+                    outdoors?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="inOrOut" value="1">
+                        <h1 class="text-center">🎮</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="inOrOut" value="2">
+                        <h1 class="text-center">🤫</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="inOrOut" value="3" required>
+                        <h1 class="text-center">🤷🏼‍♀️</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="inOrOut" value="4">
+                        <h1 class="text-center">😀</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="inOrOut" value="5">
+                        <h1 class="text-center">🏂</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 9 -->
+            <div class="ui divider inverted"></div>
+            <!-- question 10 -->
+            <div class="row pt-3 pb-5">
+                <label class="h3 fw-light text-center pb-4" for="taste">Do you have mild or hot 'n spicy
+                    tastebuds?</label>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="taste" value="1">
+                        <h1 class="text-center">🤓</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="taste" value="2">
+                        <h1 class="text-center">😋</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="taste" value="3" required>
+                        <h1 class="text-center">😐</h1>
+                    </div>
+                    <div class="row align-items-center">
+                        <input class="checkbox ui mb-2" type="radio" name="taste" value="4">
+                        <h1 class="text-center">🤒</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <input class="checkbox ui mb-2" type="radio" name="taste" value="5">
+                        <h1 class="text-center">🥵</h1>
+                    </div>
+                </div>
+            </div> <!-- end question 10 -->
+            <div class="ui divider inverted"></div>
+            <!-- submit button -->
+            <div class="text-center py-5">
+                <div class="h3 text-center fw-light pb-4">Thanks... Now Let's Find You A Match!</div>
+                <button class="ui button orange large" type="submit">Submit</button>
+            </div> <!-- end submit button -->
+        </div> <!-- end questions section -->
+    </form> <!-- end survey form -->
+    <!-- results page -->
+    <div class="resultsDisplay d-flex align-items-center justify-content-center flex-column h2 fw-light text-center pt-5 lh-base">
+        <!-- server results displayed here -->
+        <div class="pt-4">
+            <div class="friendName h1 text-center fw-light pt-3 pb-4"></div>
+            <img class="friendImg rounded mx-auto img-shadow" src="">
+        </div>
+        <div class="pt-5">
+            <a href="index.html">
+                <button class="ui large orange button mx-auto">Return to Survey</button>
+            </a>
+        </div>
+    </div> <!-- end results page -->
+    <script src="https://cdn.tlm.cloud/jquery/3.5.1/jquery-3.5.1.min.js"
+        integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+        crossorigin="anonymous"></script>
+    <script src="js/survey.js"></script>
+</body>
+
+</html>

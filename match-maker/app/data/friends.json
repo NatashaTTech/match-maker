@@ -1,0 +1,210 @@
+[
+  {
+    "name": "David",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/d615ebd4688208e58326bd0031374bc4.jpeg",
+    "scores": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "name": "Jesse",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/2789726bec48487330de4537fb39b12b.jpeg",
+    "scores": [
+      3,
+      2,
+      3,
+      5,
+      5,
+      2,
+      3,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Kristy",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/fb2a7758da423a58d2edeee48149d1a7.jpeg",
+    "scores": [
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      5,
+      5,
+      5,
+      3
+    ]
+  },
+  {
+    "name": "Nick",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/5301a4a052f9cd1b7a073cd197b49a72.jpeg",
+    "scores": [
+      1,
+      4,
+      2,
+      2,
+      4,
+      4,
+      2,
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Chris",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/5101c0a0c549dc1c76c8b9d3e83a334e.jpeg",
+    "scores": [
+      1,
+      1,
+      4,
+      3,
+      1,
+      1,
+      2,
+      2,
+      3,
+      2
+    ]
+  },
+  {
+    "name": "Julien",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/4c379b5ebd901a03ec315a259cea7d16.jpeg",
+    "scores": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "name": "Pikachu",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/347a95f95335229619d9eec00649d726.jpeg",
+    "scores": [
+      1,
+      2,
+      5,
+      4,
+      2,
+      5,
+      3,
+      5,
+      5,
+      4
+    ]
+  },
+  {
+    "name": "Darth Vader",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/ccb3675b54e7c181cebaf49291e2ab69.jpeg",
+    "scores": [
+      2,
+      3,
+      5,
+      4,
+      5,
+      5,
+      5,
+      1,
+      1,
+      5
+    ]
+  },
+  {
+    "name": "Natasha",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/1c5cde8dd5d3b816028c8648a8d6a388.jpeg",
+    "scores": [
+      5,
+      1,
+      5,
+      5,
+      5,
+      5,
+      2,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "name": "Harry",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/493671d55bf692750dc6f8401ff68ca7.jpeg",
+    "scores": [
+      4,
+      4,
+      3,
+      3,
+      1,
+      2,
+      3,
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "name": "Santa Claus",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/a71112f9d673cb42681a475d3bcacd86.jpeg",
+    "scores": [
+      1,
+      5,
+      2,
+      3,
+      1,
+      1,
+      5,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "name": "Elvis",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/5770e11c12d4b535a43a511dd2659ecb.jpeg",
+    "scores": [
+      4,
+      5,
+      1,
+      1,
+      1,
+      3,
+      5,
+      4,
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Kendra",
+    "photo": "https://lightbox.tlm.cloud/uploads/medium/e4b9f7ae97613977204af0a0be028d26.jpeg",
+    "scores": [
+      3,
+      1,
+      4,
+      3,
+      2,
+      2,
+      4,
+      2,
+      1,
+      4
+    ]
+  }
+]

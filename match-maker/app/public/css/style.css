@@ -1,0 +1,28 @@
+/* survey styling */
+.row>div>.row {
+    height: 3rem;
+}
+.intro, .resultsDisplay {
+    letter-spacing: 1px;
+}
+form {
+    overflow-y: scroll
+}
+/* results styling */
+.friendName {
+    color: #f2711c;
+}
+.img-shadow {
+    box-shadow: 0 0 1rem 0.01rem #f6672a;
+}
+img {
+    max-height: 30rem;
+    max-width: 30rem;
+}
+::-webkit-scrollbar {
+    background-image: linear-gradient( #f2711c, darkred);
+    border-radius: .4rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #3e2e23b3!important;
+}
